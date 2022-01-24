@@ -19,6 +19,8 @@ header .navbar .nav-item .nav-link {
 header .carousel {
 	width: 100vw;
 	height: 550px;
+	background-color: rgba(0, 0, 0, 1);
+	background-blend-mode: overlay;
 }
 header .carousel .carousel-item {
 	width: 100%;
@@ -57,4 +59,76 @@ main .album .right h2 {
 main .album .right p {
 	font-weight: 700;
 	color: #6c6c6c;
+}
+main .package .pricing .item {
+	margin-right: 36px;
+}
+main .package .pricing .item h3 {
+	font-weight: 700;
+	font-size: 36px;
+	color: #231d4f;
+}
+main .package .pricing .item h2 {
+	font-weight: 700;
+	font-size: 28px;
+	color: #231d4f;
+}
+main .package .pricing .item p {
+	font-weight: 400;
+	font-size: 15px;
+	color: #848199;
+	width: 206px;
+}
+main .package .pricing .item button {
+	background-color: rgba(244, 150, 209, 0.1);
+	color: #3f87f5;
+	font-weight: 700;
+	font-size: 15px;
+	width: 207px;
+	height: 45px;
+}
+main .package .pricing .item .features .feature {
+	display: flex;
+	align-items: center;
+	color: #848199;
+	font-size: 15px;
+}
+main .package .pricing .item .features i {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: rgba(82, 67, 194, 0.1);
+	font-size: 75%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 8px;
+}
+main .package .pricing .highlights {
+	background-color: blue;
+	border-radius: 2rem;
+	position: relative;
+}
+main .package .pricing .highlights .badges {
+	position: absolute;
+	top: -8px;
+	right: 10%;
+	width: 46px;
+	height: 27px;
+	background-color: #ff4e4e !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+main .package .pricing .highlights h2,
+main .package .pricing .highlights h3,
+main .package .pricing .highlights p,
+main .package .pricing .highlights .features i,
+main .package .pricing .highlights .features .feature,
+main .package .pricing .highlights button {
+	color: white;
+}
+main .package .pricing .highlights button {
+	background-color: white;
+	color: #3f87f5;
 }
