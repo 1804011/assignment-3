@@ -61,6 +61,21 @@ main .album .right p {
 	font-weight: 700;
 	color: #6c6c6c;
 }
+main .album .toast {
+	top: 64px;
+	right: 48px;
+	z-index: 1;
+	background-color: rgb(255, 255, 255);
+	border-left: 8px solid blue;
+	border-radius: 0 !important;
+}
+main .album .toast .toast-body {
+	color: #505050;
+}
+main .album .toast .toast-body button {
+	right: 0px;
+	transform: scale(75%);
+}
 main .package .pricing .item {
 	margin-right: 36px;
 }
@@ -80,6 +95,7 @@ main .package .pricing .item p {
 	color: #848199;
 	width: 206px;
 }
+
 main .package .pricing .item button {
 	background-color: rgba(244, 150, 209, 0.1);
 	color: #3f87f5;
@@ -161,6 +177,7 @@ main .faq .accordion-item .accordion-body {
 	color: #7e848c;
 	font-size: 16px;
 }
+
 footer {
 	background-color: #0b0d17;
 	max-width: 100vw;
