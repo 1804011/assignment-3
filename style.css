@@ -50,6 +50,7 @@ header .carousel .carousel-caption button a {
 main .album .left img {
 	max-height: 364px !important;
 	width: 100%;
+	max-width: 100vw;
 }
 main .album .right h2 {
 	font-weight: 700;

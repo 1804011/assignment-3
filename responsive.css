@@ -1,0 +1,59 @@
+@media only screen and (max-width: 768px) {
+	header .navbar .navbar-brand {
+		font-size: 14px;
+	}
+	header .navbar .nav-item .nav-link {
+		font-size: 16px;
+	}
+	header .navbar .navbar-toggler {
+		transform: scale(75%);
+	}
+
+	header .carousel .carousel-caption h5 {
+		font-size: 20px;
+	}
+	header .carousel .carousel-caption p {
+		font-size: 14px;
+		padding: 0;
+	}
+	main .album .left {
+		padding: 12px !important;
+	}
+	main .album .right h2 {
+		font-size: 19px;
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+	main .album .right p {
+		font-size: 15px;
+	}
+	main .package .pricing .item {
+		margin-right: 0;
+		margin-top: 24px;
+	}
+	main .feedback .card__item {
+		margin-top: 24px;
+	}
+	main .faq h3 {
+		font-size: 19px;
+		color: #222221;
+	}
+	main .faq .accordion-item {
+		margin-bottom: 16px;
+	}
+	main .faq .accordion-item h2 button {
+		font-size: 16px;
+	}
+	main .faq .accordion-item .accordion-body {
+		font-size: 14px;
+	}
+	main .faq .row .right {
+		margin-top: 36px;
+	}
+	footer .container {
+		flex-direction: column-reverse;
+	}
+	footer .container > h3 {
+		margin-top: 12px;
+	}
+}
