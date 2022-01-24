@@ -150,3 +150,41 @@ main .faq .accordion-item .accordion-body {
 	color: #7e848c;
 	font-size: 16px;
 }
+footer {
+	background-color: #0b0d17;
+	max-width: 100vw;
+	height: 280px;
+}
+footer .container > h3 {
+	font-size: 14px;
+	color: #d9dbe1;
+}
+footer .container .social > h3 {
+	font-size: 18px;
+	font-weight: 500;
+	color: #d9dbe1;
+}
+footer .social a i {
+	font-size: 20px;
+}
+footer .social a svg {
+	display: inline-block;
+
+	height: 20px;
+}
+
+footer .social a p {
+	font-size: 8px;
+}
+footer .social button {
+	border-radius: 8px;
+	width: 140px;
+	height: 48px;
+}
+footer .social a h3 {
+	font-size: 15px;
+	font-weight: 400;
+}
+footer button:hover {
+	background-color: #0b0d17 !important;
+}
