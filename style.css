@@ -109,6 +109,9 @@ main .package .pricing .highlights {
 	border-radius: 2rem;
 	position: relative;
 }
+main .package .pricing .highlights i {
+	background-color: rgba(255, 255, 255, 0.2) !important;
+}
 main .package .pricing .highlights .badges {
 	position: absolute;
 	top: -8px;
