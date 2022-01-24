@@ -44,3 +44,17 @@ header .carousel .carousel-caption button {
 header .carousel .carousel-caption button a {
 	text-decoration: none;
 }
+
+main .album .left img {
+	max-height: 364px !important;
+	width: 100%;
+}
+main .album .right h2 {
+	font-weight: 700;
+	font-size: 38px;
+	color: #0a0826;
+}
+main .album .right p {
+	font-weight: 700;
+	color: #6c6c6c;
+}
